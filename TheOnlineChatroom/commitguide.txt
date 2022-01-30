@@ -1,0 +1,37 @@
+#### WELCOME TO THE GITHUB GUIDE
+#Step 1
+-Fork the original repo to your own GITHUB; that's done on the website
+-Now you will bring your fork into your local machine
+git clone --my repo link--
+-Set the upstream of your forked repo to the original repo
+git remote upstream --original repository--
+-update the local machine with the original repository
+git pull upstream main
+
+#Step 2
+-create a new branch to work in
+git branch new-branch
+-switch into that branch
+git checkout new-branch
+
+Step 3
+-Write your code and make all your changes
+-Stage your changes and commit them
+git add . #this adds all files that were changed to the staging area
+git commit -m "TITLE" -m "Describe what you did"
+
+Step 4
+-Merge your branch and your forked repo
+git checkout main
+git merge new-branch
+-fix any conflicts typically by just accepting current changes
+-now update your repo
+git add . 
+git commit #this will automatically describe the merge
+git push origin main
+
+Step 5
+-Push everything to the original GITHUB
+-go to your own github page and look at your forked repo
+-create a pull request and follow through with the website's instructions
+-once your pull request is accepted, it's done!
