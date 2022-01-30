@@ -4,7 +4,9 @@
 
 ## A quantum secure chat among N users
 Just some nice dudes and a lady, 4 italians spread around the world and one NY guy
+
 <img src=“logo.png” width=“250">
+                               
 So we are:
 - Lisa Bombieri
 - Andrea Maiani
@@ -35,7 +37,10 @@ FOR EACH USER U_i:
 8.  U_i eliminates bits with wrong basis from RESULTS_i : U_i has key K_i
 9.  U_i sends index of bits to be eliminated to S
 10. S eliminates the bits : S has key K_i
+
+
 <img src=“key.png” width=“500">
+                              
 ## Implementation
 - a main server used to communicate between different users classically
 - the ‘quantum servers’ are used to communicate only with the Intermediate interface
@@ -52,6 +57,8 @@ FOR EACH USER U_i:
 - - Two output are created and sent back to the two users
 - - Comparing the basis using the main server the quantum-key is selected
 - The communication between the two users is now quantic secure using the quantum-key to encrypt and decrypt the files privately
+                              
 <img src=“actual_nw.png” width=“500">
+
 ## Team Experiences
 We chose to work on the Quantum Key Distribution challenge. We split up into two groups: one working on the classical end and another on the quantum. On the classical end, we had a task brand new to all of us, network programming. We decided to implement our system as a chatroom where the two users could talk to each other classically and each user had a personal server for sending quantum information to the quantum computer. We underestimated the complexity of this task as the network code was difficult to produce in the first place, given our experience. The challenge ended around when we were working on integrating the classical and quantum system. On the quantum end, we replicated the BB84 and E91 algorithm and developed a format from sending classical instructions from the users to the quantum interface.
