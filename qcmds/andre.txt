@@ -1,0 +1,4 @@
+ALICE
+METHOD E91
+ALICE bitstring 11100
+ALICE basis 11000

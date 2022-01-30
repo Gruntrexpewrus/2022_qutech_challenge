@@ -1,0 +1,45 @@
+
+
+1 Chat rooom
+    2 people intereacting, they can't see what the other wrote
+    send string of "commands" to terminal
+
+2 Terminal sends to python file the inputs
+
+3 Python file create circuits and execute algorithm
+
+4 Results total
+    give to every user only his results (ex 1 is 11 and 10)
+
+5 Send through chatroom the results
+
+Chill and Vibing
+
+
+################################
+Story of Bob and Alice
+################################
+
+Bob makes a love declaration to Alice...
+
+but the world is in shambles and no communication network is safe..
+
+So he encrypts his words "I love you Alice" with 4 encryption keys 
+
+so He send the first....
+
+<<Will!>> Says Alice..you're too assertive dear...
+
+<<You>> I don't care if you like something else...
+
+<<Marry>> Who is this message for?
+
+<<Me>> Oh what! I will answred you !
+
+<<Yes>> Eve intercepts!
+
+<<NO>> Bob gets...
+
+And bob cries alone :(
+
+
